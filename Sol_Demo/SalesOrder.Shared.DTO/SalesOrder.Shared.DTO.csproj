@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SalesOrder.Shared.Domain\SalesOrder.Shared.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

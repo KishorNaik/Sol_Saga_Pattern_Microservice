@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.RabbitMQ.Extension\Framework.RabbitMQ.Extension.csproj" />
+    <ProjectReference Include="..\Framework.Saga\Framework.Saga.csproj" />
+    <ProjectReference Include="..\Framework.SqlClient\Framework.SqlClient.csproj" />
+    <ProjectReference Include="..\OrderDispatch.Shared.DTO\OrderDispatch.Shared.DTO.csproj" />
+    <ProjectReference Include="..\OrderDispatch.Shared.Message\OrderDispatch.Shared.Message.csproj" />
+    <ProjectReference Include="..\SalesOrder.Shared.DTO\SalesOrder.Shared.DTO.csproj" />
+    <ProjectReference Include="..\Stock.Shared.DTO\Stock.Shared.DTO.csproj" />
+    <ProjectReference Include="..\Stock.Shared.Request_Response\Stock.Shared.Message.csproj" />
+  </ItemGroup>
+
+</Project>
